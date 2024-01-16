@@ -1,0 +1,235 @@
+DATES:
+  MONTHS: (((jan)|(feb)|(mar)|(apr)|(may)|(jun)|(jul)|(aug)|(sep)|(oct)|(nov)|(dec))((ruary)|(ch)|(il)|(e)|(y)|(e)|(y)|(ust)|(tember)|(ober)|(ember))?)
+  MONTHS_LONG: (january)|(february)|(march)|(april)|(may)|(june)|(july)|(august)|(september)|(october)|(november)|(december)
+  MONTHS_SHORT: (jan)|(feb)|(mar)|(apr)|(may)|(jun)|(jul)|(aug)|(sep)|(oct)|(nov)|(dec)
+  YEAR: (((20|19)(\d{2})))
+NLP:
+  RESUME_SECTIONS:
+  - accomplishments
+  - experience
+  - education
+  - interests
+  - projects
+  - professional experience
+  - publications
+  - skills
+  STOPWORDS: !!set
+    a: null
+    about: null
+    above: null
+    after: null
+    again: null
+    against: null
+    ain: null
+    all: null
+    am: null
+    an: null
+    and: null
+    any: null
+    are: null
+    aren: null
+    aren't: null
+    as: null
+    at: null
+    be: null
+    because: null
+    been: null
+    before: null
+    being: null
+    below: null
+    between: null
+    both: null
+    but: null
+    by: null
+    can: null
+    couldn: null
+    couldn't: null
+    d: null
+    did: null
+    didn: null
+    didn't: null
+    do: null
+    does: null
+    doesn: null
+    doesn't: null
+    doing: null
+    don: null
+    don't: null
+    down: null
+    during: null
+    each: null
+    few: null
+    for: null
+    from: null
+    further: null
+    had: null
+    hadn: null
+    hadn't: null
+    has: null
+    hasn: null
+    hasn't: null
+    have: null
+    haven: null
+    haven't: null
+    having: null
+    he: null
+    her: null
+    here: null
+    hers: null
+    herself: null
+    him: null
+    himself: null
+    his: null
+    how: null
+    i: null
+    if: null
+    in: null
+    into: null
+    is: null
+    isn: null
+    isn't: null
+    it: null
+    it's: null
+    its: null
+    itself: null
+    just: null
+    ll: null
+    m: null
+    ma: null
+    me: null
+    mightn: null
+    mightn't: null
+    more: null
+    most: null
+    mustn: null
+    mustn't: null
+    my: null
+    myself: null
+    needn: null
+    needn't: null
+    'no': null
+    nor: null
+    not: null
+    now: null
+    o: null
+    of: null
+    'off': null
+    'on': null
+    once: null
+    only: null
+    or: null
+    other: null
+    our: null
+    ours: null
+    ourselves: null
+    out: null
+    over: null
+    own: null
+    re: null
+    s: null
+    same: null
+    shan: null
+    shan't: null
+    she: null
+    she's: null
+    should: null
+    should've: null
+    shouldn: null
+    shouldn't: null
+    so: null
+    some: null
+    such: null
+    t: null
+    than: null
+    that: null
+    that'll: null
+    the: null
+    their: null
+    theirs: null
+    them: null
+    themselves: null
+    then: null
+    there: null
+    these: null
+    they: null
+    this: null
+    those: null
+    through: null
+    to: null
+    too: null
+    under: null
+    until: null
+    up: null
+    ve: null
+    very: null
+    was: null
+    wasn: null
+    wasn't: null
+    we: null
+    were: null
+    weren: null
+    weren't: null
+    what: null
+    when: null
+    where: null
+    which: null
+    while: null
+    who: null
+    whom: null
+    why: null
+    will: null
+    with: null
+    won: null
+    won't: null
+    wouldn: null
+    wouldn't: null
+    y: null
+    you: null
+    you'd: null
+    you'll: null
+    you're: null
+    you've: null
+    your: null
+    yours: null
+    yourself: null
+    yourselves: null
+PATTERN:
+  EDUCATION:
+  - BE
+  - B.E.
+  - B.E
+  - BS
+  - B.S
+  - ME
+  - M.E
+  - M.E.
+  - MS
+  - M.S
+  - BTECH
+  - MTECH
+  - SSC
+  - HSC
+  - CBSE
+  - ICSE
+  - X
+  - XII
+  NAME:
+  - POS: PROPN
+  - POS: PROPN
+  NOT_ALPHA_NUMERIC: '[^a-zA-Z\d]'
+  NUMBER: \d+
+TEST:
+  text: "Kaushik Ilango Jersey City, NJ | P: +1 5513706260 | kilango5@outlook.com\
+    \ | GitHub | LinkedIn EDUCATION Stevens Institute of Technology Hoboken, NJ Master\
+    \ of Science in Computer Science Expected Dec 2023 Graduate Certificate in Machine\
+    \ Learning Expected Dec 2023 National Institute of Technology Karnataka Surathkal,\
+    \ KA Bachelor of Technology in Computer Science and Engineering Jul 2016 - Jul\
+    \ 2020 SKILLS Technical Languages: Python, C, C++, SQL, Oracle, MongoDB, MATLAB\
+    \ Frameworks: NumPy, Pandas, Scikit, NLTK, TensorFlow, Keras, Django, LAMP, AWS,\
+    \ PyTorch, TensorFlow Tools: Docker, GitHub, PostgreSQL, MySQL, Oracle, Kubernetes,\
+    \ Data Visualization Platforms: Linux, Web, Windows, GCP WORK EXPERIENCE Software\
+    \ Development Engineer II Hyderabad, TL Head Digital Works Jun 2020 \u2013 Jul\
+    \ 2022 \u25CF Implemented game features and models, improving user game experience\
+    \ and involvement by 65% on proprietary platform. Aggregated unstructured data\
+    \ from 20+ sources to build the foundation of a new product; led to $100,000 in\
+    \ new revenue"
