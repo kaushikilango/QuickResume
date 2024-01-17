@@ -1,4 +1,8 @@
-from src.parser import parser as parser
+from scratch import get_resume_details
+from entity_extraction.experience_extractor import extract_experience
+from entity_extraction.education_extractor import extract_education
+from entity_extraction.name_extractor import extract_name
+from entity_extraction.contact_extractor import extract_email,extract_phone
 
-if __name__ == '__main__':
-    
+
+def parse()
