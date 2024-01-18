@@ -6,7 +6,7 @@ from spacy.matcher import Matcher
 with open('config.yaml') as f:
     config = yaml.safe_load(f)
 
-def contact_extractor(text):
+def extract_contact(text):
     email = re.findall("([^@|\s]+@[^@]+\.[^@|\s]+)", text)
     if email:
         try:
@@ -29,6 +29,6 @@ if __name__ == '__main__':
     text = config['TEST']['text']
     doc = nlp(text)
     matcher = Matcher(nlp.vocab)
-    email,phone = contact_extractor(text)
+    email,phone = extract_contact(text)
     print(email,phone)
         
